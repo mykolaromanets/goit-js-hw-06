@@ -16,7 +16,7 @@ const galleryEL = document.querySelector(".gallery");
 const makeGalleryCard = ({ url, alt } = {}) => {
   return `
 <li class = "gallery-item">
-<img src = "${url}", alt = "${alt}">
+<img src = "${url}" alt = "${alt}" width = "300" height = "auto"> 
 </li> `;
 };
 const galleryCards = images.map((el) => {
